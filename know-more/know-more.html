@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="back-button.css">
+  <link rel="stylesheet" href="go-to-top.css">
+
+</head>
+<body>
+
+  <center>
+    <div style="background-color:#000000; padding:15px;">
+      <button class="back-button" type="online-button" style="vertical-align:middle" onclick="goBack()">BACK</button>
+          <script>
+                  function goBack(){
+                      window.history.back();
+                  }
+          </script>
+      </div>
+  </center>
+
+  <div class="landscape">
+    <div class="capt">
+    <span class="border">“We travel not to escape life, <br> but for life not to escape us.”</span>
+    </div>
+  </div>
+
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Foreign Tours</h3>
+    <p>These are some my exculsive photos from my foreign tour, when I went to Europe. Till now I have been to many countries across Europe. I have been to Neitherlands, Belgium, Switzerland, France, Germany, Austria, Finland, Hungary, Czech Republic, Slovakia.</p>
+  </div>
+
+  <div class="bgimg-2">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:60px;color: #ffffff;"><b>SWITZERLAND</b></span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:rgba(51, 51, 51, 0.856);text-align:center;padding:50px 80px;text-align: justify;">
+    <p>The above Photo is of the Time when I went to Interlaken in Switzerland.</p>
+    </div>
+  </div>
+
+  <div class="bgimg-3">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:70px;color: #000000;"><b>PRAGUE</b></span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:rgb(51, 51, 51, 0.856);background-color:rgb(255, 255, 255);text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>The above Photo is of the Time when I went to Prague in Czech Republic.</b></p>
+    </div>
+  </div>
+
+  <div class="bgimg-4">
+    <div class="capt">
+    <span class="border">COOL!</span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:rgba(51, 51, 51, 0.856);text-align:center;padding:50px 80px;text-align: justify;">
+    <p>The above Photo is of Jungfrauh, the Highest Mountain Peak of Europe, and belongs to largest mountaneous range in Europe known as Alps.</p>
+    </div>
+  </div>
+
+  <div class="bgimg-1">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:80px;color: #ffffff;"><b>MUNICH</b></span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:rgba(51, 51, 51, 0.856);background-color:#ffffff;text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>The above Photo is of the Time when I went to Munich in Germany.</b></p>
+    </div>
+  </div>
+
+  <div class="bgimg-5">
+    <div class="caption">
+    <span class="border" style="font-size:60px"><b>AUSTRIA</b></span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:rgb(255, 255, 255);background-color:rgb(51, 51, 51, 0.856);text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>The above Photo is of the Time when I went to Vienna in Austria.</b></p>
+    </div>
+  </div>
+
+  <div class="bgimg-6">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:80px;color: #ffffff;"><b>BUDAPEST</b></span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:rgba(51, 51, 51, 0.856);background-color:#ffffff;text-align:center;padding:50px 80px;text-align: justify;">
+    <p><b>The above Photo is of the Time when I went to Budapest in Hungary.</b></p>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+
+          <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 860px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 860 || document.documentElement.scrollTop > 860) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+
+</body>
+</html>

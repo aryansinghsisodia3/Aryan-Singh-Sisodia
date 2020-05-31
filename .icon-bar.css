@@ -1,0 +1,50 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-31%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(175, 175, 175);
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.github {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.envelope {
+    background: rgba(0, 195, 255, 0.938);
+    color: rgb(209, 209, 209);
+  }
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.yahoo {
+    background: rgb(47, 0, 255);
+    color: white;
+  }
